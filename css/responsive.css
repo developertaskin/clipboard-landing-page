@@ -1,0 +1,243 @@
+@media screen and (max-width: 500px) {
+  /* Main Content Css codes */
+  #main_content {
+    width: 95%;
+  }
+
+  /* Header Area CSS codes */
+  #header_area {
+    width: 100%;
+    background-image: url(../images/bg-header-mobile.png);
+    background-size: contain;
+    padding: 130px 25px 0px;
+    margin-bottom: 170px;
+  }
+
+  #header_area img {
+    margin-bottom: 70px;
+    width: 161px;
+  }
+
+  #header_area h1 {
+    margin-bottom: 22px;
+  }
+
+  #header_area p {
+    margin-bottom: 58px;
+    padding: 0px 15px;
+  }
+
+  #header_area > a.ios {
+    width: 82%;
+    padding: 15px 0px;
+    font-size: 18px;
+  }
+
+  #header_area > a.ios {
+    margin-right: 0px;
+    margin-bottom: 25px;
+    box-shadow: 1px 1px 9px hsl(171, 66%, 44%);
+  }
+
+  #header_area > a.mac {
+    width: 82%;
+    font-size: 18px;
+    padding: 15px 0px;
+  }
+
+  /* Hero Area CSS codes */
+  #hero_area {
+    width: 100%;
+  }
+
+  #hero_area .intro {
+    width: 100%;
+    margin-bottom: 100px;
+    padding: 0px 20px;
+  }
+
+  #hero_area .intro p {
+    padding: 0px 17px;
+  }
+
+  #hero_area .computer {
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 25px;
+  }
+
+  #hero_area .computer .img {
+    width: 100%;
+  }
+
+  #hero_area .computer .info {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    padding: 65px 0px 0px 0px;
+  }
+
+  #hero_area .computer .info h3 {
+    margin-bottom: 15px;
+    font-size: 27px;
+  }
+
+  #hero_area .computer .info p {
+    margin-bottom: 70px;
+    padding: 0px 18px;
+  }
+
+  /* Device Area CSS codes */
+  #device_area {
+    margin-top: 190px;
+    margin-bottom: 115px;
+    padding: 0px 13px;
+  }
+
+  #device_area .intro {
+    margin-bottom: 85px;
+    padding: 0px 20px;
+  }
+
+  #device_area .intro p {
+    padding: 0px 12px;
+  }
+
+  #device_area .img {
+    width: 100%;
+  }
+
+  #device_area .img img {
+    width: 100%;
+  }
+
+  /* Service Area CSS codes */
+  #service_area {
+    padding: 0px 6%;
+    margin-bottom: 154px;
+  }
+
+  #service_area .intro {
+    margin-bottom: 100px;
+  }
+
+  #service_area .services {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15%;
+  }
+
+  #service_area .services .child_services {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0px;
+    margin-bottom: 65px;
+  }
+
+  #service_area .services .child_services h3 {
+    font-size: 27px;
+  }
+
+  #service_area .services .child_services p {
+    padding: 0px 25px;
+  }
+
+  #service_area .services .child_services:last-child {
+    margin-bottom: 0px;
+    margin-right: 0;
+  }
+
+  #service_area .logos {
+    height: 560px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #service_area .services .logos img {
+    width: 150px;
+  }
+
+  /* Service Area CSS codes */
+  #clipboard_area {
+    padding: 0px 22px;
+  }
+
+  #clipboard_area > h2 {
+    margin-bottom: 23px;
+    font-size: 35px;
+  }
+
+  #clipboard_area > p {
+    padding: 0px 20px;
+  }
+
+  #clipboard_area > a.ios,
+  .mac {
+    width: 82%;
+    padding: 15px 0px;
+    font-size: 18px;
+  }
+
+  #clipboard_area > a.ios {
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+
+  /* Footer CSS codes */
+  #footer_area {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 60px 0 65px;
+    margin-top: 170px;
+  }
+
+  #footer_area .logo {
+    width: 100%;
+    margin-bottom: 45px;
+  }
+
+  #footer_area .logo img {
+    width: 65px;
+  }
+
+  #footer_area .navigation {
+    width: 100%;
+    margin-bottom: 60px;
+  }
+
+  #footer_area .navigation .menu ul {
+    grid-template-columns: auto;
+    gap: 20px;
+  }
+
+  #footer_area .navigation .menu ul li {
+    margin-bottom: 15px;
+  }
+
+  #footer_area .navigation .menu ul li:last-child {
+    margin-bottom: 0px;
+  }
+
+  #footer_area .navigation .menu ul li a {
+    font-size: 20px;
+  }
+
+  #footer_area .social {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  #footer_area .social i {
+    font-size: 35px;
+    margin-right: 40px;
+  }
+
+  #footer_area .social i:last-child {
+    margin-right: 0px;
+  }
+}
